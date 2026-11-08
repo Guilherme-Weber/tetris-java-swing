@@ -1,4 +1,4 @@
-package Tetrix2;
+package tetris;
 
 
 import java.awt.Color;
@@ -13,8 +13,8 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.Timer;
 
-import Tetrix2.Shape.Tetrominoes;
-import Tetrix2.Tetris;
+import tetris.Shape.Tetrominoes;
+import tetris.Tetris;
 
 public class Board extends JPanel implements ActionListener {
 	 

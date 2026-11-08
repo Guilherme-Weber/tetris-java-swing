@@ -11,10 +11,10 @@ O jogo apresenta um tabuleiro de 10 colunas por 22 linhas, no qual as peças (te
 ## Estrutura do repositório
 
 ```
-src/Tetrix2/Tetris.java   Classe principal; cria a janela e inicia o jogo
-src/Tetrix2/Board.java    Tabuleiro, lógica do jogo e controle do teclado
-src/Tetrix2/Shape.java    Definição e rotação das peças
-.project, .classpath      Configuração do projeto no Eclipse
+src/main/java/tetris/Tetris.java   Classe principal; cria a janela e inicia o jogo
+src/main/java/tetris/Board.java    Tabuleiro, lógica do jogo e controle do teclado
+src/main/java/tetris/Shape.java    Definição e rotação das peças
+.project, .classpath               Configuração do projeto no Eclipse
 ```
 
 ## Requisitos
@@ -26,8 +26,8 @@ src/Tetrix2/Shape.java    Definição e rotação das peças
 Pelo terminal, a partir da raiz do repositório:
 
 ```
-javac -d bin src/Tetrix2/*.java
-java -cp bin Tetrix2.Tetris
+javac -d bin src/main/java/tetris/*.java
+java -cp bin tetris.Tetris
 ```
 
 Pelo Eclipse: **File > Import > Existing Projects into Workspace**, selecionar a pasta do repositório e executar a classe `Tetris`.
