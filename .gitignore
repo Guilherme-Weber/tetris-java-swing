@@ -1,3 +1,11 @@
 # Saída de compilação
 bin/
 *.class
+
+# Ferramentas de IA (skills, configurações de agentes)
+.agents/
+.claude/
+.github/copilot-instructions.md
+skills-lock.json
+CLAUDE.md
+AGENTS.md
